@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+header{
+    background-color: rgb(200, 239, 255);
+}
+
+.header-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 60px ;
+    border-bottom: 8px solid rgb(0, 111, 159);
+}
+
+.name{
+    font-size: 50px;
+    color: rgb(0, 111, 159);
+}
+
+.role{
+    font-size: 25px;
+    color: rgb(0, 111, 159);
+}
+
+.details-section{
+    padding-left: 20%;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.details-section img{
+    width: 30px;
+    height: 30px;
+}
+
+.address,.phone,.mail,.social{
+    display: flex;
+    column-gap: 20px;
+}
+
+.add{
+    width: 320px;
+}
+
+.summary-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+
+.title{
+    font-size: 35px;
+    color: rgb(0, 111, 159);
+}
+
+.summary-section hr{
+    height: 2px;
+    background-color: rgb(0, 111, 159);
+}
+
+.description{
+    font-size: 30px;
+    text-align: justify;
+    width: 90%;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+aside{
+   
+    width: 35%;
+    padding-left: 5%;
+    padding-top: 3%;
+    float: left;
+    padding-right: 1%;
+    }
+
+.education-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.education-section hr{
+    height: 2px;
+    background-color: rgb(0, 111, 159);
+    
+}
+
+.Etitle{
+    font-size: 35px;
+    color: rgb(0, 111, 159);
+    border-bottom:3px solid rgb(0, 111, 159);
+}
+
+.Ename{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 111, 159);
+}
+
+.study,.year{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.education{
+    padding-top: 5%;
+}
+
+.technical-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.Ttitle{
+    font-size: 35px;
+    color: rgb(0, 111, 159);
+    border-bottom:3px solid rgb(0, 111, 159);
+}
+
+.skills{
+    padding-top: 3%;
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.skills li{
+    font-size: 25px;
+    color: rgb(0, 111, 159);
+    font-weight: bold;
+}
+
+.skills div{
+    color: black;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.skills span{
+    color: black;
+    font-weight: lighter;
+}
+
+.personal-section{
+    padding-top: 5%;
+}
+
+.Ititle{
+    font-size: 35px;
+    color: rgb(0, 111, 159);
+    border-bottom:3px solid rgb(0, 111, 159);
+}
+
+.Iskills{
+    padding-top: 3%;
+}
+
+.Iskills ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.Iskills li{
+    font-size: 25px;
+ }
+
+ main{
+    width: 55%;
+    float: left;
+    padding-top: 0.20%;
+    padding-left: 2%;
+    border-left: 2px solid rgb(0, 111, 159);
+
+}
+
+.internship{
+    padding-top: 3%;
+}
+
+.internship ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.internship li{
+    font-size: 25px;
+ }
+
+ main .skills li{
+    padding-bottom: 1%;
+ }
+
+ main .skills div{
+    line-height: 36px;
+ }
+
+ .certficate-section{
+    padding-top: 3%;
+ }
+
+ .project-section{
+    padding-top: 3%;
+ }
