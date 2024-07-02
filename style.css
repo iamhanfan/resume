@@ -1,30 +1,31 @@
-body{
+body {
     margin: 0;
     font-family: 'Times New Roman';
 }
-header{
+header {
     background-color: rgb(200, 239, 255);
 }
 
-.header-section{
+.header-section {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px ;
+    padding: 60px;
     border-bottom: 8px solid rgb(0, 111, 159);
+    flex-wrap: wrap;
 }
 
-.name{
+.name {
     font-size: 50px;
     color: rgb(0, 111, 159);
 }
 
-.role{
+.role {
     font-size: 25px;
     color: rgb(0, 111, 159);
 }
 
-.details-section{
+.details-section {
     padding-left: 20%;
     font-size: 21px;
     display: flex;
@@ -32,21 +33,21 @@ header{
     row-gap: 25px;
 }
 
-.details-section img{
+.details-section img {
     width: 30px;
     height: 30px;
 }
 
-.address,.phone,.mail,.social{
+.address, .phone, .mail, .social {
     display: flex;
     column-gap: 20px;
 }
 
-.add{
+.add {
     width: 320px;
 }
 
-.summary-section{
+.summary-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,17 +56,17 @@ header{
     padding-bottom: 2%;
 }
 
-.title{
+.title {
     font-size: 35px;
     color: rgb(0, 111, 159);
 }
 
-.summary-section hr{
+.summary-section hr {
     height: 2px;
     background-color: rgb(0, 111, 159);
 }
 
-.description{
+.description {
     font-size: 30px;
     text-align: justify;
     width: 90%;
@@ -73,169 +74,254 @@ header{
     line-height: 40px;
 }
 
-aside{
-   
+aside {
     width: 35%;
     padding-left: 5%;
     padding-top: 3%;
     float: left;
     padding-right: 1%;
-    }
+}
 
-.education-section{
+.education-section {
     display: flex;
     flex-direction: column;
     row-gap: 2px;
 }
 
-.education-section hr{
+.education-section hr {
     height: 2px;
     background-color: rgb(0, 111, 159);
-    
 }
 
-.Etitle{
+.Etitle {
     font-size: 35px;
     color: rgb(0, 111, 159);
-    border-bottom:3px solid rgb(0, 111, 159);
+    border-bottom: 3px solid rgb(0, 111, 159);
 }
 
-.Ename{
+.Ename {
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 111, 159);
 }
 
-.study,.year{
+.study, .year {
     font-size: 25px;
     margin-top: 10px;
 }
 
-.education{
+.education {
     padding-top: 5%;
 }
 
-.technical-section{
+.technical-section {
     display: flex;
     flex-direction: column;
     padding-top: 5%;
 }
 
-.Ttitle{
+.Ttitle {
     font-size: 35px;
     color: rgb(0, 111, 159);
-    border-bottom:3px solid rgb(0, 111, 159);
+    border-bottom: 3px solid rgb(0, 111, 159);
 }
 
-.skills{
+.skills {
     padding-top: 3%;
 }
 
-.skills ul{
+.skills ul {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.skills li{
+.skills li {
     font-size: 25px;
     color: rgb(0, 111, 159);
     font-weight: bold;
 }
 
-.skills div{
+.skills div {
     color: black;
     padding-top: 10px;
     font-weight: lighter;
 }
 
-.skills span{
+.skills span {
     color: black;
     font-weight: lighter;
 }
 
-.personal-section{
+.personal-section {
     padding-top: 5%;
 }
 
-.Ititle{
+.Ititle {
     font-size: 35px;
     color: rgb(0, 111, 159);
-    border-bottom:3px solid rgb(0, 111, 159);
+    border-bottom: 3px solid rgb(0, 111, 159);
 }
 
-.Iskills{
+.Iskills {
     padding-top: 3%;
 }
 
-.Iskills ul{
+.Iskills ul {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
 
-.Iskills li{
+.Iskills li {
     font-size: 25px;
- }
+}
 
- main{
+main {
     width: 55%;
     float: left;
     padding-top: 0.20%;
     padding-left: 2%;
     border-left: 2px solid rgb(0, 111, 159);
-
 }
 
-.internship{
+.internship {
     padding-top: 3%;
 }
 
-.internship ul{
+.internship ul {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
 
-.internship li{
+.internship li {
     font-size: 25px;
- }
+}
 
- main .skills li{
+main .skills li {
     padding-bottom: 1%;
- }
+}
 
- main .skills div{
+main .skills div {
     line-height: 36px;
- }
+}
 
- .certficate-section{
+.certficate-section {
     padding-top: 3%;
- }
+}
 
- .project-section{
+.project-section {
     padding-top: 3%;
- }
+}
 
-
- .resume{
+.resume {
     padding: 15px;
     font-size: 25px;
     border-radius: 8px;
-    border:none ;
-    background: linear-gradient(to bottom right,rgb(103, 175, 201),rgb(0, 111, 159));
+    border: none;
+    background: linear-gradient(to bottom right, rgb(103, 175, 201), rgb(0, 111, 159));
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 10%;
- }
+}
 
- .resume a{
+.resume a {
     text-decoration: none;
     color: white;
- }
+}
 
- .resume:hover{
-    background: linear-gradient(to bottom right,rgb(0, 111, 159),rgb(103, 175, 201));
+.resume:hover {
+    background: linear-gradient(to bottom right, rgb(0, 111, 159), rgb(103, 175, 201));
     border: 4px solid rgb(141, 172, 186);
- }
+}
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .header-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .details-section {
+        padding-left: 0;
+    }
+
+    aside, main {
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+
+    .summary-section .description {
+        width: 100%;
+    }
+
+    .resume {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 40px;
+    }
+
+    .role {
+        font-size: 20px;
+    }
+
+    .details-section {
+        font-size: 18px;
+    }
+
+    .summary-section .description {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .Etitle, .Ttitle, .Ititle {
+        font-size: 30px;
+    }
+
+    .Ename, .study, .year, .skills li, .Iskills li, .internship li, main .skills li {
+        font-size: 20px;
+    }
+
+    .resume {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .role {
+        font-size: 18px;
+    }
+
+    .details-section {
+        font-size: 16px;
+    }
+
+    .summary-section .description {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .Etitle, .Ttitle, .Ititle {
+        font-size: 25px;
+    }
+
+    .Ename, .study, .year, .skills li, .Iskills li, .internship li, main .skills li {
+        font-size: 18px;
+    }
+
+    .resume {
+        font-size: 18px;
+        margin-left: 0;
+    }
+}
